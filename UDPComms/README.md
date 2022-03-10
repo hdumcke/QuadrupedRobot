@@ -85,7 +85,7 @@ The library also comes with the `rover` command that can be used to interact wit
 | `rover peek port` | print messages sent on port `port` |
 | `rover poke port rate` | send messages to `port` once every `rate` milliseconds. Type message in json format and press return |
 
-There are more commands used for starting and stoping services described in [this repo](https://github.com/stanfordroboticsclub/RPI-Setup/blob/master/README.md)
+https://github.com/stanfordroboticsclub/RPI-SetupThere are more commands used for starting and stoping services described in [this repo](https://github.com/stanfordroboticsclub/RPI-Setup/blob/master/README.md)
 
 ### To Install 
 

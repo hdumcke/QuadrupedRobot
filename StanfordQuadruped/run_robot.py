@@ -17,13 +17,13 @@ from src.JoystickInterface import JoystickInterface
 from src.State import State
 from pupper.MovementGroup import MovementLib
 from src.MovementScheme import MovementScheme
-from pupper.HardwareInterface import HardwareInterface
-from pupper.Config import Configuration
+from Mangdang.minipupper.HardwareInterface import HardwareInterface
+from Mangdang.minipupper.Config import Configuration
 from pupper.Kinematics import four_legs_inverse_kinematics
 
 quat_orientation = np.array([1, 0, 0, 0])
 
-cartoons_folder = "/home/ubuntu/Robotics/QuadrupedRobot/Mangdang/LCD/cartoons/"
+cartoons_folder = "/home/ubuntu/Robotics/QuadrupedRobot/cartoons/"
 current_show = ""
 disp = ST7789()
 
